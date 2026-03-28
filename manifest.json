@@ -17,10 +17,10 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "focus-search@ilies.local"
-    },
-    "data_collection_permissions": {
-      "required": ["none"]
+      "id": "focus-search@ilies.local",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   }
 }
