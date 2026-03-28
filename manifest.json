@@ -3,7 +3,7 @@
   "name": "Focus Search Bar",
   "version": "1.0.0",
   "description": "Focus the main search bar on the current page",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting", "data_collection_permissions"],
   "background": {
     "scripts": ["background.js"]
   },
@@ -13,6 +13,11 @@
         "default": "Alt+Shift+K"
       },
       "description": "Focus the search field on the page"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "focus-search@ilies.local"
     }
   }
 }
