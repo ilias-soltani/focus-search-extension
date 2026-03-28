@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Search Bar",
+  "version": "1.0.0",
+  "description": "Focus the main search bar on the current page",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "focus-search": {
+      "suggested_key": {
+        "default": "Alt+Shift+K"
+      },
+      "description": "Focus the search field on the page"
+    }
+  }
+}

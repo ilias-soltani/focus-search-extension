@@ -1,0 +1,14 @@
+{
+  "name": "focus-search-extension",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Firefox extension that focuses the search bar on the current page using a keyboard shortcut",
+  "scripts": {
+    "dev": "web-ext run",
+    "build": "web-ext build",
+    "lint": "web-ext lint"
+  },
+  "devDependencies": {
+    "web-ext": "^8.9.0"
+  }
+}
